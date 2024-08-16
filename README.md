@@ -38,7 +38,7 @@ JWT_SECRET="" # Your JWT secret key
 
 ```npm run dev```
 
-<p>The server should now be running. You can access it at <a>http://localhost:3000/</a>.</p>
+<p>The server should now be running. You can access it at <a href="http://localhost:3000">http://localhost:3000</a>.</p>
 
 ### Using Docker
 <p>If you prefer using Docker, you can pull and run the pre-built Docker image.</p>
@@ -52,4 +52,4 @@ JWT_SECRET="" # Your JWT secret key
 
 ```docker run -d -p 3000:3000 tanuj03/spaarks:latest```
 
-<p>The server will be accessible at <a>http://localhost:3000/</a>.</p>
+<p>The server will be accessible at <a href="http://localhost:3000">http://localhost:3000/</a>.</p>
