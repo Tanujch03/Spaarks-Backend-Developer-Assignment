@@ -3,6 +3,7 @@ import dotenv from 'dotenv';
 import connectDB from './config/db.js';
 import authRoutes from './routes/authRoutes.js';
 import restaurantRoutes from './routes/restaurantRoutes.js';
+import cookieParser from 'cookie-parser';
 
 dotenv.config();
 
@@ -13,8 +14,17 @@ const app = express();
 // Middleware to parse JSON bodies
 app.use(express.json());
 
+
 // Middleware to parse URL-encoded bodies
 app.use(express.urlencoded({ extended: false }));
+
+
+// cookie parser
+app.use(cookieParser());
+
+
+
+
 
 // Route handling for authentication
 app.use('/api/auth', authRoutes);

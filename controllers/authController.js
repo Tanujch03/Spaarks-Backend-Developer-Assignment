@@ -32,32 +32,21 @@ export const signup = async (req, res) => {
 
 //  signin function takes email,password from request and perform the operations 
 export const signin = async (req, res) => { 
-    try{
-        const {email,password} = req.body
-        const user = await User.findOne({email})
+    try {
+        const { email, password } = req.body;
+        const user = await User.findOne({ email });
 
-        if(!user)
-        {
-            return res.json({
-                error:"No user found"
-            })
-        }
-        const match = await comparePassword(password,user.password)
+        if (!user) return res.status(404).json({ error: "No user found" });
+
+        const match = await comparePassword(password, user.password);
 
         if (match) {
-            jwt.sign({ email: user.email, id: user._id, name: user.name }, process.env.JWT_SECRET, { expiresIn: '30d' }, (err, token) => {
-                if (err) throw err;
-                res.cookie('token', token, { httpOnly: true, maxAge: 30 * 24 * 60 * 60 * 1000 }).json(user);
-            });
+            const token = jwt.sign({ email: user.email, id: user._id, name: user.name }, process.env.JWT_SECRET, { expiresIn: '30d' });
+            res.cookie('token', token, { httpOnly: true, maxAge: 30 * 24 * 60 * 60 * 1000 }).json(user);
+        } else {
+            return res.status(401).json({ error: "Invalid credentials" });
         }
-
-        if(!match)
-        {
-            res.json({
-                error:"Not matched"
-            })
-        }
-        res.json({message: "successfully signed in"})
+        
     }catch (error) {
         console.log(error);
         res.status(500).json({ error: "An error occurred during signin" });
