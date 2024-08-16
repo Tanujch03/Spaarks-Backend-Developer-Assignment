@@ -40,6 +40,21 @@ JWT_SECRET="" # Your JWT secret key
 
 <p>The server should now be running. You can access it at <a href="http://localhost:3000">http://localhost:3000</a></p>
 
+###  Endpoints
+#### Authorization Endpoints
+<ul>
+        <li>```/api/auth/signup```</li>
+        <li>```/api/auth/signin```</li>
+        <li>```/api/auth/logout```</li>
+</ul>
+
+#### Handling restaurants Endpoints
+<ul>
+        <li>```/api/restaurants/nearby```</li>
+        <li>```/api/auth/nearbyrange```</li>
+       
+</ul>
+
 ### Using Docker
 <p>If you prefer using Docker, you can pull and run the pre-built Docker image.</p>
 
