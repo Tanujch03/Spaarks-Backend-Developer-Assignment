@@ -52,4 +52,4 @@ JWT_SECRET="" # Your JWT secret key
 
 ```docker run -d -p 3000:3000 tanuj03/spaarks:latest```
 
-<p>The server will be accessible at <a href="http://localhost:3000">http://localhost:3000/</a></p>
+<p>The server will be accessible at <a href="http://localhost:3000">http://localhost:3000</a></p>
