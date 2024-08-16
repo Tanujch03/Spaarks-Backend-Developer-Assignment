@@ -51,7 +51,7 @@ JWT_SECRET="" # Your JWT secret key
 #### Handling restaurants Endpoints
 <ul>
         <li>/api/restaurants/nearby</li>
-        <li>/api/auth/nearbyrange</li>
+        <li>/api/restaurants/nearbyrange</li>
        
 </ul>
 
