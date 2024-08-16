@@ -43,15 +43,15 @@ JWT_SECRET="" # Your JWT secret key
 ###  Endpoints
 #### Authorization Endpoints
 <ul>
-        <li>```/api/auth/signup```</li>
-        <li>```/api/auth/signin```</li>
-        <li>```/api/auth/logout```</li>
+        <li>/api/auth/signup</li>
+        <li>/api/auth/signin</li>
+        <li>/api/auth/logout</li>
 </ul>
 
 #### Handling restaurants Endpoints
 <ul>
-        <li>```/api/restaurants/nearby```</li>
-        <li>```/api/auth/nearbyrange```</li>
+        <li>/api/restaurants/nearby</li>
+        <li>/api/auth/nearbyrange</li>
        
 </ul>
 
