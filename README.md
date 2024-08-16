@@ -9,12 +9,12 @@
         <li><strong>npm</strong> (v6.x or later)</li>
         <li><strong>MongoDB</strong> (MongoDB Atlas)</li>
 </ul>
-# Clone the Repository
+### Clone the Repository
 <p>To start, clone the repository to your local machine:</p>
-
-```bash
+```
 git clone https://github.com/Tanujch03/Spaarks-Backend-Developer-Assignment.git
-cd Spaarks-Backend-Developer-Assignment bash
+cd Spaarks-Backend-Developer-Assignment
+```
 
 
 ### Set Up Environment Variables
