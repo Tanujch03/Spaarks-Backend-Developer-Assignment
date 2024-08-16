@@ -9,6 +9,7 @@
         <li><strong>npm</strong> (v6.x or later)</li>
         <li><strong>MongoDB</strong> (MongoDB Atlas)</li>
 </ul>
+
 ### Clone the Repository
 <p>To start, clone the repository to your local machine:</p>
 
@@ -19,38 +20,35 @@ cd Spaarks-Backend-Developer-Assignment
 
 
 ### Set Up Environment Variables
-Create a .env file in the root directory of the project and set up the following environment variables:
+<p>Create a .env file in the root directory of the project and set up the following environment variables:</p>
 
-bash
-Copy code
+```
 PORT=3000
 MONGO_URL=""  # Your MongoDB connection string
 JWT_SECRET="" # Your JWT secret key
-Install Dependencies
-Install the required dependencies by running:
+```
 
-bash
-Copy code
-npm install
-Run the Development Server
-Start the server in development mode using the following command:
+#### Install Dependencies
+<p>Install the required dependencies by running:</p>
 
-bash
-Copy code
-npm run dev
-The server should now be running. You can access it at http://localhost:3000/.
+```npm install```
 
-Using Docker
-If you prefer using Docker, you can pull and run the pre-built Docker image.
+#### Run the Development Server
+<p>Start the server in development mode using the following command:</p>
 
-Pull the Docker Image
-bash
-Copy code
-docker pull tanuj03/spaarks:latest
-Run the Docker Container
-Start the container with the following command:
+```npm run dev```
+<p>The server should now be running. You can access it at <a>http://localhost:3000/</a>.</p>
 
-bash
-Copy code
-docker run -d -p 3000:3000 tanuj03/spaarks:latest
-The server will be accessible at http://localhost:3000/.
+#### Using Docker
+<p>If you prefer using Docker, you can pull and run the pre-built Docker image.</p>
+
+#### Pull the Docker Image
+
+```docker pull tanuj03/spaarks:latest```
+
+
+#### Run the Docker Container
+<p>Start the container with the following command:</p>
+
+```docker run -d -p 3000:3000 tanuj03/spaarks:latest```
+<p>The server will be accessible at <a>http://localhost:3000/</a>.</p>
