@@ -34,16 +34,21 @@ JWT_SECRET="" # Your JWT secret key
 
 ### Run the Development Server
 <p>Start the server in development mode using the following command:</p>
+
 ```npm run dev```
+
 <p>The server should now be running. You can access it at <a>http://localhost:3000/</a>.</p>
 
 ### Using Docker
 <p>If you prefer using Docker, you can pull and run the pre-built Docker image.</p>
 
 ### Pull the Docker Image
+
 ```docker pull tanuj03/spaarks:latest```
 
 ### Run the Docker Container
 <p>Start the container with the following command:</p>
+
 ```docker run -d -p 3000:3000 tanuj03/spaarks:latest```
+
 <p>The server will be accessible at <a>http://localhost:3000/</a>.</p>
