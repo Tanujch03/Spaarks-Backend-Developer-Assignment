@@ -14,7 +14,9 @@
 
 ```bash
 git clone https://github.com/Tanujch03/Spaarks-Backend-Developer-Assignment.git
-cd Spaarks-Backend-Developer-Assignment
+cd Spaarks-Backend-Developer-Assignment bash
+
+
 ### Set Up Environment Variables
 Create a .env file in the root directory of the project and set up the following environment variables:
 
