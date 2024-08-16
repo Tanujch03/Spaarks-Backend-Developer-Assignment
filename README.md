@@ -12,12 +12,10 @@
 # Clone the Repository
 <p>To start, clone the repository to your local machine:</p>
 
-<code>
+```bash
 git clone https://github.com/Tanujch03/Spaarks-Backend-Developer-Assignment.git
 cd Spaarks-Backend-Developer-Assignment
-</code>
-
-Set Up Environment Variables
+### Set Up Environment Variables
 Create a .env file in the root directory of the project and set up the following environment variables:
 
 bash
