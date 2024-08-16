@@ -1,7 +1,14 @@
 import express from 'express';
-import { signup, signin, logout } from '../controllers/authController.js';
+import { signupForm,signinForm, signup, signin, logout } from '../controllers/authController.js';
 
 const router = express.Router();
+
+// GET route for signup
+router.get('/signup',signupForm)
+
+// GET route for signin
+router.get('/signin',signinForm)
+
 
 // Route for user signup
 router.post('/signup', signup);

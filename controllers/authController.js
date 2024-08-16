@@ -2,7 +2,13 @@ import User from '../models/User.js';
 import { hashPassword, comparePassword } from '../helpers/auth.js';
 import jwt from 'jsonwebtoken';
 
+export const signupForm = (req,res)=>{
+    res.json({message: "get method Username email password password"})
+}
 
+export const signinForm = (req,res)=>{
+    res.json({message: "get method email password passed"})
+}
 // signup function takes name,email,password from request and perform the operations 
 export const signup = async (req, res) => {
     try {
