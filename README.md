@@ -1,11 +1,14 @@
-Spaarks Backend Developer Assignment
-This repository contains the backend code for the Spaarks application. The project is built with Node.js and MongoDB, providing a RESTful API for various functionalities.
+##Spaarks Backend Developer Assignment
+<p>This repository contains the backend code for the Spaarks application.</p>
 
-Getting Started
-Prerequisites
-Node.js (v14.x or later)
-npm (v6.x or later)
-MongoDB (local instance or MongoDB Atlas)
+
+##Getting Started
+#Prerequisites
+<ul>
+        <li><strong>Node.js</strong> (v14.x or later)</li>
+        <li><strong>npm</strong> (v6.x or later)</li>
+        <li><strong>MongoDB</strong> (local instance or MongoDB Atlas)</li>
+</ul>
 Clone the Repository
 To start, clone the repository to your local machine:
 
