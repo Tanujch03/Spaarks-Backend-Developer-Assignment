@@ -3,7 +3,7 @@
 
 
 ## Getting Started
-# Prerequisites
+### Prerequisites
 <ul>
         <li><strong>Node.js</strong> (latest)</li>
         <li><strong>npm</strong> (v6.x or later)</li>
