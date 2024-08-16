@@ -1,12 +1,14 @@
-<h1>Spaarks Backend Developer Assignment</h1>
-    <p>This repository contains the backend code for the Spaarks backend developer application.</p>
+<body>
+    <h1>Spaarks Backend Developer Assignment</h1>
+    <p>This repository contains the backend code for the Spaarks application. The project is built with Node.js and MongoDB, providing a RESTful API for various functionalities.</p>
 
     <h2>Getting Started</h2>
 
     <h3>Prerequisites</h3>
     <ul>
-        <li><strong>Node.js</strong> (latest)</li>
-        <li><strong>MongoDB</strong> (MongoDB Atlas)</li>
+        <li><strong>Node.js</strong> (v14.x or later)</li>
+        <li><strong>npm</strong> (v6.x or later)</li>
+        <li><strong>MongoDB</strong> (local instance or MongoDB Atlas)</li>
     </ul>
 
     <h3>Clone the Repository</h3>
@@ -40,4 +42,14 @@ JWT_SECRET="" # Your JWT secret key
     <h4>Run the Docker Container</h4>
     <p>Start the container with the following command:</p>
     <pre><code>docker run -d -p 3000:3000 tanuj03/spaarks:latest</code></pre>
-    <p>The server is accessible at <a href="http://localhost:3000/">http://localhost:3000/</a>.</p>
+    <p>The server will be accessible at <a href="http://localhost:3000/">http://localhost:3000/</a>.</p>
+
+    <h2>API Documentation</h2>
+    <p>For detailed API documentation, refer to the documentation provided in the project or test the endpoints using tools like Postman.</p>
+
+    <h2>Contributing</h2>
+    <p>If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.</p>
+
+    <h2>License</h2>
+    <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
+</body>
