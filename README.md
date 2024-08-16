@@ -11,6 +11,7 @@
 </ul>
 ### Clone the Repository
 <p>To start, clone the repository to your local machine:</p>
+
 ```
 git clone https://github.com/Tanujch03/Spaarks-Backend-Developer-Assignment.git
 cd Spaarks-Backend-Developer-Assignment
