@@ -1,8 +1,8 @@
-##Spaarks Backend Developer Assignment
+#Spaarks Backend Developer Assignment
 <p>This repository contains the backend code for the Spaarks application.</p>
 
 
-##Getting Started
+#Getting Started
 #Prerequisites
 <ul>
         <li><strong>Node.js</strong> (v14.x or later)</li>
