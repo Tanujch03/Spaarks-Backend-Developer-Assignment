@@ -30,6 +30,7 @@ JWT_SECRET="" # Your JWT secret key
 
 ### Install Dependencies
 <p>Install the required dependencies by running:</p>
+
 ```npm install```
 
 ### Run the Development Server
